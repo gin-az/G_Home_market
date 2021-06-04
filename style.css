@@ -89,11 +89,13 @@ transition: all 0.5s ease;
 .item:hover{
 background: #F2F2F2;
 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
--moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 -o-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
 border-radius: 10px;
+-webkit-border-radius: 10px;
+-moz-box-border-radius: 10px;
+-o-box-border-radius: 10px;
 }
 .item-product {
     box-sizing: border-box;
@@ -286,6 +288,7 @@ flex-wrap: wrap;
 .block_product_photo img {
     -webkit-box-shadow: inset 0px -70px 45px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: inset 0px -70px 45px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: inset 0px -70px 45px 0px rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px -70px 45px 0px rgba(0, 0, 0, 0.15);
     box-shadow: inset 0px -70px 45px 0px rgba(0, 0, 0, 0.15);
 }
