@@ -195,12 +195,14 @@ right: 8px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap; 
+    height: 40px;
 }
 
 .price {
     font-size: 36px;
     height: 40px;
     line-height: 42px;
+    margin-right: 16px;
     display: flex;
     align-items: center;
     text-align: right;
@@ -209,54 +211,42 @@ right: 8px;
     position: relative;
 }
 
-.count{
+.count {
     height: 40px;
     font-size: 24px;
 	line-height: 32px;
-	padding: 0;
-	margin: 0;
+	/* padding: 0;
+	margin: 0; */
+    margin-right: 16px;
 	-moz-appearance: textfield;
 	-webkit-appearance: textfield;
 	appearance: textfield;
-}
-.like{
-    display: flex;
-    text-align: center;
-    align-self: center;
-    margin-left: 8px;
-    align-content: center;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    display: inline-flex;
 }
 
-.like button {
-    background: transparent; 
-    background-image: url("./img/favorite_border.svg");
-    background-repeat: no-repeat;
-    border: none !important;
-    height: 24px;
-    width: 24px;
-    transition: background-image 0.25s ease;
-}
- 
-  .like button:focus{
-    height: 26px;
-    width: 38px;
-    background-image: url("./img/favorite.svg");
-    background-repeat: no-repeat;
-} 
 
 .count input{
-    height: 36px;
-    padding: 0;
-	margin: 0;
+    border: none;
     color: #E97F03;
     font-size: 30px;
+    width: 100 px;
     text-align: center;
-}
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    box-sizing: border-box;
+      }
 
-.minus_plus {
-	 top: 1px;
-	width: 30px;
-    height: 40px;
+      input[type=number]::-webkit-inner-spin-button, 
+      input[type=number]::-webkit-outer-spin-button { 
+        -webkit-appearance: none;
+      }
+
+.minus, .plus {
+    box-sizing: border-box;
+	width: 40px;
     border: none !important;
 	 padding: 0;
     margin: 0;
@@ -268,6 +258,36 @@ right: 8px;
     color: #E97F03;
   outline: none; 
 }
+
+.like{
+    display: flex;
+    text-align: center;
+    align-self: center;
+    margin-left: 16px;
+    align-content: center;
+}
+
+.like-button {
+    background: transparent; 
+    background-image: url("./img/favorite_border.svg");
+    background-repeat: no-repeat;
+    border: none !important;
+    height: 24px;
+    width: 24px;
+    transition: background-image 0.25s ease;
+    padding-left: 0;
+}
+ 
+  .like-button-active{
+    height: 26px;
+    width: 38px;
+    background: transparent; 
+    border: none !important;
+    background-image: url("./img/favorite.svg");
+    background-repeat: no-repeat;
+    transition: background-image 0.25s ease;
+    padding-left: 0;
+} 
 
 @media only screen 
 and (min-device-width : 365px) 
