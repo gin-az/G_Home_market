@@ -1,9 +1,11 @@
-window.onload = function () {
+ function liked() {
+    console.log("like");
     var likeBtn = document.querySelector(".like-button");
     var plusBtn = document.querySelector(".plus")
     var minusBtn = document.querySelector(".minus")
     console.log("123");
 
+    
     likeBtn.addEventListener("click", function()
         {
           if (likeBtn.classList == "like-button")
