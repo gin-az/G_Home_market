@@ -1,6 +1,7 @@
-@media only screen and (min-width: 300px) and (max-width: 490px) {
+@media only screen and (min-width: 300px) and (max-width: 520px) {
     .item {
       flex-shrink: 1;
+      flex: 0 1 calc(50% - 12px);
       height: 272px;
       position: relative;
     }
@@ -20,7 +21,6 @@
       left: 0px;
       right: 0px;
       top: 188px;
-  
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
