@@ -1,0 +1,49 @@
+@media only screen and (min-width: 300px) and (max-width: 490px) {
+    .item {
+      flex-shrink: 1;
+      height: 272px;
+      position: relative;
+    }
+    .catalog {
+      justify-content: center;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+    .product {
+      top: 35px;
+      position: absolute;
+    }
+  
+    .item-product {
+      position: absolute;
+      height: 40px;
+      left: 0px;
+      right: 0px;
+      top: 188px;
+  
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .item-price {
+      position: absolute;
+      height: 20px;
+      left: 0px;
+      right: 0px;
+      top: 228px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  

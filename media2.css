@@ -1,0 +1,105 @@
+@media only screen and (min-width: 300px) and (max-width: 806px) {
+    .item {
+      flex-shrink: 1;
+      height: 272px;
+      position: relative;
+    }
+    .catalog {
+      justify-content: center;
+      margin: 0;
+      flex-wrap: wrap;
+    }
+    .product {
+      top: 35px;
+      position: absolute;
+    }
+  
+    .item-product {
+      position: absolute;
+      height: 40px;
+      left: 0px;
+      right: 0px;
+      top: 188px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+    .item-price {
+      position: absolute;
+      height: 20px;
+      left: 0px;
+      right: 0px;
+      top: 228px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .block_product_photo img {
+      src: url("./img/search.svg");
+      flex: 1;
+      background: -webkit-linear-gradient(360deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 50%);
+      background: -moz-linear-gradient(360deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 50%);
+      background: linear-gradient(360deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 50%);
+    }
+    .block_product {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 8px 0px 0px;      
+    }
+    .block_price {
+      flex-wrap: wrap;
+      position: relative;
+      height: 100px;
+      margin-bottom: 16px;
+    }
+    .price {
+      position: absolute;
+      top: 0px;
+    }
+    .count {
+      position: absolute;
+      bottom: 8px;
+    }
+    .count input {
+      width: 80px;
+    }
+    .plus,
+    .minus {
+      width: 32px;
+    }
+    .add_to_cart {
+      position: absolute;
+      bottom: 8px;
+      right: 24px;
+    }
+    .like {
+      position: absolute;
+      top: 8px;
+      right: 24px;
+    }
+    .block_product_photo {
+      display: flex;
+      flex: 1;
+      margin: 0 0px 16px;
+      align-self: stretch;
+      position: relative;
+    }
+    .description {
+      padding: 8px 16px 0px;
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+  
